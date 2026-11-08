@@ -1,0 +1,133 @@
+*{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+body{
+    background: #f7f7df;
+    overflow-x: hidden;
+}
+
+.header-container {
+    background: #efefc9;
+    height: 170px;
+    width: 1925px;
+    margin-left: -10px;
+    margin-top: -10px;
+
+}
+
+.header-container-logo {
+    height: 170px;
+    width: 200px;
+}
+
+.header-container-logo-img {
+    width: 500px;
+    height: auto;
+    margin-top: -50px;
+    margin-left: -150px;
+    
+}
+
+.header-container-title {
+    width: 300px;
+    height: 170px;
+    margin-top: -215px;
+    margin-left: 200px;
+    
+}
+
+.header-container-title-text {
+    color: rgb(122, 120, 120);
+    font-size: 45px;
+    padding-top: 45px;
+    padding-left: 50px;
+    cursor: pointer;
+    
+}
+
+
+.header-container-sections {
+    height: 170px;
+    margin-top: -170px;
+
+}
+
+.header-container-sections-menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    margin-top: 55px;
+    margin-right: 250px;
+}
+
+.header-container-sections-menu-h2 {
+    color: rgb(73, 73, 73);
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.header-container-sections-menu-h2-active {
+    text-decoration: underline; 
+    text-underline-offset: 6px; 
+    text-decoration-color: #e3a655; 
+    text-decoration-thickness: 3px; 
+}
+
+.main-container {
+
+}
+
+.main-container-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    /* Додай внутрішні або зовнішні відступи, щоб сітка не прилипала до хедера */
+    margin-top: 150px; 
+    margin-left: 170px;
+    
+    
+}
+
+.main-container-cards-card {
+   padding: 50px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+   background: #f0e6a4;
+   width: 275px;
+   height: 450px;
+   border-radius: 10px;
+}
+
+.main-container-cards-card-buybox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.main-container-cards-card-buybox-price {
+   font-size: 25px;
+}
+
+.main-container-cards-card-buybox-btn {
+    text-decoration: none;
+    color: #e3a655;
+    background: rgb(252, 247, 217);
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.main-container-cards-card-buybox-btn:hover {
+    background: rgb(239, 235, 210);
+    cursor: pointer;
+}
+
+.main-container-cards-card-img{
+    max-width: 350px;
+    height: auto;
+    margin-left: -37px;
+}
